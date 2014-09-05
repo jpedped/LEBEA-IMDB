@@ -1,0 +1,29 @@
+<div class="row">
+	<div class="col-sm-5"><img ng-src="{{movieDetails.Poster}}"></div>
+	<div class="col-sm-7">
+		<div class="row">
+			<div class="col-sm-6"><h3>{{movieDetails.Title}} <small class="pull-right">{{movieDetails.Year}}</small></h3></div><div class="col-sm-6"><h3>Rating: {{movieDetails.imdbRating}}</h3></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">Rated: {{movieDetails.Rated}} {{movieDetails.Runtime}} - {{movieDetails.Genre}} - {{movieDetails.Released}} ({{movieDetails.Country}})</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2">{{movieDetails.imdbRating}}</div><div class="col-sm-10">Ratings {{movieDetails.imdbRating}}/10 from {{movieDetails.imdbVotes}} users <span class="pull-right">Metascore: {{movieDetails.Metascore}}</span></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12"><p>{{movieDetails.Plot}}</p></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12"><p><strong>Director:</strong> {{movieDetails.Director}}</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12"><p><strong>Writers:</strong> {{movieDetails.Writer}}<p></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12"><p><strong>Stars:</strong> {{movieDetails.Actors}}</p></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12"><p><strong>Website: </strong> {{movieDetails.Website}}</p></div>
+		</div>
+	</div>
+</div>

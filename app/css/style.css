@@ -1,0 +1,17 @@
+.form-control.search-input  {
+	text-align: center;
+}
+
+#movie-listing  tr{
+	cursor:pointer;
+}
+
+section {
+	margin-top: 35px;
+}
+
+.bg-danger {
+	margin: 15px 0;
+	padding: 15px;
+	border-radius:5px;
+}
